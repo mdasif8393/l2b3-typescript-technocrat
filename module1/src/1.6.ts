@@ -8,7 +8,7 @@ add(2, true);
 
 const addArrow = (num1: number, num2: number): number => num1 + num2;
 
-// object --> fy=unction == method
+// object --> fy=unction == method s
 
 const poorUser = {
   name: "Mezba",
