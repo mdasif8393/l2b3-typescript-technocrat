@@ -8,7 +8,12 @@
   const boolArray: GenericArray<boolean> = [true, false, false];
 }
 
-const user: GenericArray<{ name: string; age: number }> = [
+Interface User {
+  name: string;
+  age: number;
+};
+
+const user: GenericArray<User> = [
   {
     name: "John",
     age: 22,
