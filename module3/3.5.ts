@@ -21,7 +21,9 @@
   }
 
   class StudentAccount extends BankAccount {
-    text() {}
+    text() {
+      this._balance;
+    }
   }
 
   const goribManush = new BankAccount(11, "Asif", 1000);
